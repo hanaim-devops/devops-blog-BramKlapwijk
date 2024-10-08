@@ -39,16 +39,19 @@ Flux is gebaseerd op het GitOps-principe. In GitOps is de Git-repository de enig
 
 De essentiële onderdelen van een GitOps-werkwijze zijn:
 
-Git-repository
-CI-pipeline
-Application Deployment Tool
-Monitoring-systeem
+- Git-repository
+- CI-pipeline
+- Application Deployment Tool
+- Monitoring-systeem
 
 ## FluxCD
 
 Hier komt FluxCD in het spel; het neemt de applicatiedeployment over binnen de GitOps-werkwijze. FluxCD kan de toestand van je Kubernetes-cluster automatisch synchroniseren met de configuratie die in een Git-repository staat. Als er wijzigingen in de repository worden aangebracht, worden deze automatisch naar het cluster gepusht.
 
 <img src="plaatjes/Architectuur.png" alt="">
+
+*Figuur 1: Opzet FluxCD (ThatDevOpsGuy, 2023)*
+
 Omdat de staat van de infrastructuur in Git wordt bewaard, kan er eenvoudig worden teruggedraaid naar een vorige versie.
 
 ## Alternatieven
