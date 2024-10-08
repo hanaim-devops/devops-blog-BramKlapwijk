@@ -1,8 +1,39 @@
-# Blijven deployen met FluxCD 
-
-<img src="plaatjes/mdbook_logo.png" width="250" align="right" alt="mdbook logo om weg te halen" title="maar vergeet de alt tekst niet">
+# Blijven deployen met FluxCD
 
 *[Voornaam Achternaam, oktober 2024.](https://github.com/hanaim-devops/blog-student-naam)*
+
+FluxCD is een populaire tool voor continuous delivery en maakt gebruik van het GitOps-principe om de implementatie van applicaties in Kubernetes-omgevingen te automatiseren.
+
+Als je in je applicatie gebruik maakt van Kubernetes klusters moet je op het moment dat je een update wilt uitvoeren nog
+zelf veel stappen maken om deze ook op productie te deployen. Aangezien je deze configuratie bestanden al in Git opslaat
+is het nog maar een kleine stap om dit ook te automatiseren.
+
+## GitOps
+
+In GitOps is de Git repository de enkele bron van waarheid voor infrastructuur. In plaats van configuraties handmatig 
+aan te passen op servers, automatiseert GitOps de implementatie en het beheer van infrastructuur via Git-repositories.
+Onderdeel van Git OPS zijn bijvoorbeeld CI/CD pipelines en infrastructure as code.
+
+De essentiele onderdelen van een GitOps werkwijze zijn:
+
+1. Git repository
+2. CD pipeline
+3. Application Deployment Tool
+4. Monitoring systeem
+
+## FluxCD
+
+Hier komt FluxCD in het spel, zij pakken de application deployment op van de GitOps werkwijze. FluxCD kan de toestand van je Kubernetes-cluster automatisch synchroniseren met de configuratie die in een Git-repository staat. Als er wijzigingen in de repository worden aangebracht, worden deze automatisch naar het cluster gepusht.
+
+Omdat de staat van de infrastructuur in Git bewaard wordt kan er ook makkelijk weer teruggedraaid worden naar een vorige versie.
+
+
+## Alternatieven
+
+## Implementatie
+
+## Bronnen
+
 <hr/>
 # Wat zijn de belangrijkste functies van FluxCD en hoe ondersteunen ze GitOps?
 
