@@ -35,7 +35,7 @@ Als je in je applicatie gebruikmaakt van Kubernetes-clusters, moet je op het mom
 
 ## GitOps
 
-Flux is gebaseerd op het GitOps-principe. In GitOps is de Git-repository de enige bron van waarheid voor infrastructuur. In plaats van configuraties handmatig aan te passen op servers, automatiseert GitOps de implementatie en het beheer van infrastructuur via Git-repositories. Onderdeel van GitOps zijn bijvoorbeeld CI/CD-pipelines en infrastructure as code.
+Flux is gebaseerd op het GitOps-principe. In GitOps is de Git-repository de enige bron van waarheid voor infrastructuur. In plaats van configuraties handmatig aan te passen op servers, automatiseert GitOps de implementatie en het beheer van infrastructuur via Git-repositories (Gilab, z.d.). Onderdeel van GitOps zijn bijvoorbeeld CI/CD-pipelines en infrastructure as code.
 
 De essentiële onderdelen van een GitOps-werkwijze zijn:
 
@@ -53,7 +53,7 @@ Omdat de staat van de infrastructuur in Git wordt bewaard, kan er eenvoudig word
 
 ## Alternatieven
 
-Een van de bekendste alternatieven is ArgoCD. Het grootste verschil is dat ArgoCD een GUI meelevert en hier volledig op is georiënteerd. Hierdoor is ArgoCD aanvankelijk makkelijker te gebruiken. FluxCD is echter uniek in zijn focus op GitOps en declaratieve configuratie, wat het een krachtige tool maakt voor teams die willen profiteren van de voordelen van automatisering en versiebeheer in Kubernetes. Terwijl andere CI/CD-tools ook waardevolle functionaliteit bieden, is FluxCD specifiek ontworpen om de uitdagingen van Kubernetes-omgevingen aan te pakken.
+Een van de bekendste alternatieven is ArgoCD. Het grootste verschil is dat ArgoCD een GUI meelevert en hier volledig op is georiënteerd (Courage Ihensekhien, 2024). Hierdoor is ArgoCD aanvankelijk makkelijker te gebruiken. FluxCD is echter uniek in zijn focus op GitOps en declaratieve configuratie, wat het een krachtige tool maakt voor teams die willen profiteren van de voordelen van automatisering en versiebeheer in Kubernetes. Terwijl andere CI/CD-tools ook waardevolle functionaliteit bieden, is FluxCD specifiek ontworpen om de uitdagingen van Kubernetes-omgevingen aan te pakken.
 
 ## Implementatie
 
