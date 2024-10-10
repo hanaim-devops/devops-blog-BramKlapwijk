@@ -32,6 +32,7 @@ Als je in je applicatie gebruikmaakt van Kubernetes-clusters, moet je op het mom
 3. FluxCD. (z.d.) *Get Started with Flux*. FluxCD.io. Geraadpleegd op 9 oktober 2024, van <https://fluxcd.io/flux/get-started/>
 4. Courage Ihensekhien, O. (2024, 3 maart). *Argo CD vs. Flux CD: Choosing the Right GitOps Tool for Your Kubernetes Deployments*. Medium.com. Geraadpleegd op 8 oktober 2024, van <https://medium.com/@osascourage27/argo-cd-vs-flux-cd-choosing-the-right-gitops-tool-for-your-kubernetes-deployments-dbe93b598c69>
 5. Gitlab. (z.d.) *What is GitOps?*. gitlab.com. Geraadpleegd op 9 oktober 2024, van <https://about.gitlab.com/topics/gitops/>
+6. ICT research methods. (z.d.). Ictresearchmethods. Geraadpleegd op 9 oktober 2024, van https://ictresearchmethods.nl/Main_Page
 
 ## GitOps
 
