@@ -19,7 +19,6 @@ Voor dit onderzoek wil ik gebruik maken van de volgende onderzoeksmethoden:
 
 - Prototyping
 - Bieb
-- Probleem analyse
 - Competitive analysis
 
 Verzin o.a. een titel voor je blog, pas de folder naam hier op aan en gebruik [kebab-case](https://en.toolpage.org/tool/kebabcase).

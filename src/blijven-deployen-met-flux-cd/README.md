@@ -10,7 +10,7 @@ FluxCD is een populaire tool om continuous delivery te implementeren en maakt ge
 
 Als je in je applicatie gebruikmaakt van Kubernetes-clusters, moet je op het moment dat je een update wilt uitvoeren nog zelf veel stappen zetten om deze ook op productie te deployen. Aangezien je deze configuratiebestanden al in Git opslaat, is het nog maar een kleine stap om dit ook te automatiseren.
 
-*[Bram Klapwijk, oktober 2024.](https://github.com/hanaim-devops/blog-student-naam)*
+*[Bram Klapwijk, oktober 2024.](https://github.com/hanaim-devops/devops-blog-BramKlapwijk)*
 
 ## Inhoudsopgave
 
